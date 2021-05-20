@@ -1,0 +1,24 @@
+.pagination li a{
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #007bff;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+
+.pagination li.active a {
+    z-index: 1;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.msg{
+    font-size: 40px !important;
+    text-align: center !important;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+}
